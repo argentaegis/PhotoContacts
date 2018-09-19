@@ -1,0 +1,17 @@
+Getting Started:
+AVD: Pixel 2, Android 8.1
+npm install -g create-react-native-app
+expo app for phone
+
+create-react-native-app PhotoContacts
+yarn run android
+
+reload: R,R
+enable hot reloading: ctrl+m
+
+Setup Navigation:
+npm install --save react-navigation
+(don't forget to start dev server)
+
+App.js
+import { createStackNavigator } from 'react-navigation';
