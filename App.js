@@ -3,11 +3,13 @@ import { createStackNavigator } from 'react-navigation';
 import { StyleSheet } from 'react-native';
 
 import Home from './components/Home/Home';
+import CameraPane from './components/CameraPane/CameraPane';
 
 
 const RootStack = createStackNavigator(
   {
-    Home: { screen: Home},
+    Home: { screen: Home },
+    CameraPane: { screen: CameraPane },
   },
   {
     initialRoute: 'Home'
